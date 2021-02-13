@@ -25,3 +25,10 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('/เบล', function () {
+    return "ถ้าเธอรักฉันจริง";
+});
+
+Route::get('/hello/{name}', function ($name) {
+    return "สวัสดี $name";
+});
