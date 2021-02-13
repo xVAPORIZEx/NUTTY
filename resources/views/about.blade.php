@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>หวัดดีเบล</h1>
+    <h1>หน้า about bell</h1>
 </body>
 </html>
