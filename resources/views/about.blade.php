@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>หน้า about bell</h1>
+    <h1>หน้าเกี่ยวกับเบล</h1>
 </body>
 </html>
