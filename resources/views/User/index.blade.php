@@ -8,6 +8,7 @@
             <tr>
                 <td>ลำดับ</td>
                 <td>ชื่อ</td>
+                <td>อีเมลล์</td>
                 <td>สร้างเมื่อ</td>
                 <td>จัดการ</td>
             </tr>
@@ -17,6 +18,7 @@
             <tr>
                 <td>{{$item->id}}</td>
                 <td>{{$item->name}}</td>
+                <td>{{$item->email}}</td>
                 <td>{{$item->created_at}}</td>
                 <td><a href="/user/edit/{{$item->id}}">แก้ไข</a> | <a href="/user/delete/{{$item->id}}">ลบ</a></td>
             </tr>
