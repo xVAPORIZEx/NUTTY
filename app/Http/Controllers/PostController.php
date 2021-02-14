@@ -11,7 +11,7 @@ class PostController extends Controller
     public function index()
     {
         $data = [
-            'post' => Post::all(),
+            'posts' => Post::all(),
         ];
         return view('post.index', $data);
     }
@@ -34,7 +34,7 @@ class PostController extends Controller
         $post->detail = $detail;
         $post->save();
 
-        return redirect('/user');
+        return redirect('/post');
     }
 
     public function edit($id)
