@@ -20,9 +20,9 @@
             <tr>
                 <td>{{$item->id}}</td>
                 <td>{{$item->title}}</td>
-                <td>{{$item->thumbnail}}</td>
-                <td>{{$item->category_id}}</td>
-                <td>{{$item->user_id}}</td>
+                <td><img src="{{($item->thumbnail)}}"></td>
+                <td>{{$item->category->name}}</td>
+                <td>{{$item->user->name}}</td>
                 <td>{{$item->created_at}}</td>
                 <td><a href="/post/edit/{{$item->id}}">แก้ไข</a> | <a href="/post/delete/{{$item->id}}">ลบ</a></td>
             </tr>
